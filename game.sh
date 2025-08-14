@@ -5,7 +5,7 @@ echo "Welcome to the Game that you wanted to play from a long time..."
 echo "Enter a number between 0 and 1"
 read num
 
-random=$(($RANDOM % 2 ))
+random=$(($RANDOM%2 ))
 if [ $num == 1 ] || [ $num == 0 ]; then
 
 	if [ $num == $random ]; then
